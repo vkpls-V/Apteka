@@ -8,10 +8,10 @@ namespace ClassProject
 {
     public class Apteka
     {
-        publicstringname { get; set; }
-    List<Medicines> >medicines;
+        public string name { get; set;}
+    List<Medicines> medicines;
 
-        public Apteka()
+    public Apteka()
     {
         medicines = new List<Medicines>();
     }
@@ -24,7 +24,7 @@ namespace ClassProject
     {
         float expensive = 0f;
         string expensive_name = "";
-        foreach (varvariable in medicines)
+        foreach (var variable in medicines)
         {
             if (expensive < variable.price)
             {
@@ -37,7 +37,7 @@ namespace ClassProject
     public void GetSumPriceMedicines()
     {
         float sum = 0f;
-        foreach (varvariable in medicines)
+        foreach (var variable in medicines)
         {
             sum += variable.price;
         }
@@ -45,15 +45,15 @@ namespace ClassProject
     }
     public void ShowMeds()
     {
-        foreach (varvariable in medicines)
+        foreach (var variable in medicines)
         {
             Console.WriteLine($"{variable.name}, цена: {variable.price} руб.");
         }
     }
 }
-public classMedicines
-    {
-    publicstringname { get; set; }
-        public float price { get; set; } 
-    }
+public class Medicines
+{
+    public string name { get; set; }
+    public float price { get; set; }
+}
 }

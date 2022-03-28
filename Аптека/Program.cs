@@ -10,7 +10,7 @@ namespace ClassProject
             ShowName(apt1.name);
             apt1.Add(new Medicines { name = "Нимесил", price = 390f });
             apt1.Add(new Medicines { name = "Гексорал", price = 500f });
-            apt1.Add(new Medicines { name = "Анальгин", price = 900f });
+            apt1.Add(new Medicines { name = "Анальгин", price = 100f });
             apt1.Add(new Medicines { name = "Парацетамол", price = 150f });
             WriteLine("-----------------");
             apt1.ShowMeds();
