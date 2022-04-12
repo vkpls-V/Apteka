@@ -9,15 +9,15 @@ namespace ClassProject
     public class Apteka
     {
         public string name { get; set;}
-    List<Medicines> medicines;
+    List<Medicine> medicines;
 
     public Apteka()
     {
-        medicines = new List<Medicines>();
+        medicines = new List<Medicine>();
     }
-    public void Add(Medicines add_medicines)
+    public void Add(Medicine add_medicine)
     {
-        medicines.Add(add_medicines);
+        medicines.Add(add_medicine);
     }
 
     public void DetectExpensiveMedicines()
@@ -51,7 +51,7 @@ namespace ClassProject
         }
     }
 }
-    public class Medicines
+    public class Medicine
     {
           public string name { get; set; }
 public float price { get; set; } 
