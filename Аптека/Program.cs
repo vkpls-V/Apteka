@@ -8,8 +8,8 @@ namespace ClassProject
         {
             Apteka apt1 = new Apteka { name = "Apteka.ru" };
             ShowName(apt1.name);
-            apt1.Add(new Medicines { name = "Нимесил", price = 390f });
-            apt1.Add(new Medicines { name = "Гексорал", price = 500f });
+            apt1.Add(new Medicines { name = "Мукалтин", price = 80f });
+            apt1.Add(new Medicines { name = "Нурофен", price = 500f });
             apt1.Add(new Medicines { name = "Анальгин", price = 100f });
             apt1.Add(new Medicines { name = "Парацетамол", price = 150f });
             WriteLine("-----------------");

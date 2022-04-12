@@ -51,9 +51,9 @@ namespace ClassProject
         }
     }
 }
-public class Medicines
-{
-    public string name { get; set; }
-    public float price { get; set; }
-}
+    public class Medicines
+    {
+          public string name { get; set; }
+public float price { get; set; } 
+    }
 }
