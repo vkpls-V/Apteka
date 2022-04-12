@@ -12,11 +12,11 @@ namespace ClassProject
             apt1.Add(new Medicine { name = "Нурофен", price = 500f });
             apt1.Add(new Medicine { name = "Анальгин", price = 100f });
             apt1.Add(new Medicine { name = "Парацетамол", price = 150f });
-            WriteLine("-----------------");
+            WriteLine("__________________________________");
             apt1.ShowMeds();
-            WriteLine("-----------------");
+            WriteLine("__________________________________");
             apt1.DetectExpensiveMedicines();
-            WriteLine("-----------------");
+            WriteLine("__________________________________");
             apt1.GetSumPriceMedicines();
             ReadKey();
         }
